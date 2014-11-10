@@ -1,6 +1,6 @@
 # What is this?
 
-This is a basic project that demonstrates how to quickly get started developing a HipChat integration using [ac-koa-hipchat](https://bitbucket.org/rbergman/ac-koa-hipchat).
+This is a basic project that demonstrates how to quickly get started developing a HipChat integration using [ac-koa-hipchat](https://bitbucket.org/atlassianlabs/ac-koa-hipchat).
 
 It uses a basic [Vagrant](https://www.vagrantup.com) configuration to provide one option for quickly getting started with a basic setup using the following dependencies:
 
