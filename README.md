@@ -4,7 +4,7 @@ This is a basic project that demonstrates how to quickly get started developing 
 
 It uses a basic [Vagrant](https://www.vagrantup.com) configuration to provide one option for quickly getting started with a basic setup using the following dependencies:
 
-* Node.js 0.11.13
+* Node.js 0.11.x
 * Redis
 * MongoDB
 * ngrok
