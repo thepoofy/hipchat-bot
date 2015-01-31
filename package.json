@@ -1,11 +1,11 @@
 {
-  "name": "reveal-bot-bot",
-  "displayName": "RevealBotBot",
-  "description": "Lets you know what other bots are running and their commands",
+  "name": "my-addon-key",
+  "displayName": "My Add-on Name",
+  "description": "You add-on description",
   "version": "0.1.0",
   "author": {
-    "name": "Dave Haden",
-    "url": "http://atlassian.com"
+    "name": "My Name",
+    "url": "http://mycompany.com"
   },
   "license": "Apache 2.0",
   "engines": {
