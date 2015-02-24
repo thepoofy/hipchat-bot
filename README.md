@@ -25,15 +25,16 @@ Edit the `package.json` file and give your project unique name and author fields
 These are the most important fields to configure now:
 
 ```
-#!js
-
+#!json
+{
   "name": "my-addon-key",
   "displayName": "My Add-on Name",
   "description": "You add-on description",
   "author": {
     "name": "My Name",
     "url": "http://mycompany.com"
-  },
+  }
+}
 ```
 
 When that's done, run the following commands:
@@ -61,4 +62,9 @@ You should now have an installable HipChat integration running at some unique ur
 
 The `project` directory in /home/vagrant in the guest VM is a share that mounts the cloned git repository on your host OS.  You can do your development either in the VM or, more likely, using your favorite editor or IDE running in the host OS.
 
-Now, to install the add-on at hipchat.com, see the instructions [here](https://bitbucket.org/atlassianlabs/ac-koa-hipchat/src/master/README.md), starting with the section titled "Manually installing the add-on using HipChat's admin UI".  The remainder of that document will also be useful for learning how to modify the starter add-on included with this project.
+Now, to install the add-on at hipchat.com, see the [ac-koa instructions](https://bitbucket.org/atlassianlabs/ac-koa-hipchat/wiki/Getting_Started#markdown-header-manually-installing-the-add-on-using-hipchats-admin-ui), starting with the section titled "Manually installing the add-on using HipChat's admin UI".  The remainder of that document will also be useful for learning how to modify the starter add-on included with this project.
+
+# How do I write an add-on?
+
+This repository helps you get started writing an add-on with ac-koa-hipchat. For reference on how to use ac-koa, please refer to the [README](https://bitbucket.org/atlassianlabs/ac-koa-hipchat).
+
