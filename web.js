@@ -11,7 +11,7 @@ if (process.env.DEV_KEY) {
   addon.key(process.env.DEV_KEY);
 }
  
-addon.webhook('room_message', /^\/hello$/, function *() {
+addon.webhook('room_message', /^\/beerme$/, function *() {
   yield this.roomClient.sendNotification('Hi, ' + this.sender.name + '!');
 });
  
