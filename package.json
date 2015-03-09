@@ -1,11 +1,11 @@
 {
-  "name": "my-addon-key",
-  "displayName": "My Add-on Name",
-  "description": "You add-on description",
+  "name": "beerme-sumall",
+  "displayName": "Beerme",
+  "description": "Recommends a beer for you.",
   "version": "0.1.0",
   "author": {
-    "name": "My Name",
-    "url": "http://mycompany.com"
+    "name": "Will & Giorgia",
+    "url": "https://sumall.com"
   },
   "license": "Apache 2.0",
   "engines": {
