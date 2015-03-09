@@ -10,9 +10,12 @@ var addon = app.addon()
 if (process.env.DEV_KEY) {
   addon.key(process.env.DEV_KEY);
 }
- 
+
+var notifier = Notifier({format: 'html', dir: __dirname + '/messages'});
+var commands = Commands(notifier);
+
 addon.webhook('room_message', /^\/beerme$/, function *() {
-  yield this.roomClient.sendNotification('Hi, ' + this.sender.name + '!');
+  yield commands.beerme();
 });
- 
+
 app.listen();
